@@ -1,0 +1,297 @@
+/* commun */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: sans-serif;
+}
+header {
+    background-image:url(/assets/images/galaxie.jpg);
+    background-size: cover;
+    object-fit: cover;
+    width: 100%;
+    height: 200px;
+    color: white;
+    display: flex;
+    align-items: space-between;
+}
+header h1 {
+    padding-top: 130px;
+    padding-left: 20px;
+    width: 60%;
+}
+.nav-items {
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+    gap: 1rem;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+.nav-item {
+    list-style-type: none;
+}
+.nav-item a {
+    color: white;
+    text-decoration: none;
+}
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F7F8FA;
+}
+
+.card {
+    width:70%;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    align-items: flex-start;
+    padding: 10px;
+    box-shadow: 3px 3px 3px lightgray;
+    margin: 50px;
+    border-radius: 20px;
+}
+.card-img {
+    width: 40%;
+    padding-right: -20px;
+}
+.card-img img {
+    width: 250px;
+    border-radius: 40px;
+    padding: 10px;
+}
+.card-text {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    padding: 10px;
+    gap: 2rem;
+}
+
+.card-btn {
+    background-color: #1E1E3C;
+    border-radius: 20px;
+    padding: 10px;
+}
+.card-btn a {
+    text-decoration: none;
+    color: white;
+
+
+}
+/* Typographie */
+.container {
+    width:40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    align-items: flex-start;
+    padding: 30px;
+    box-shadow: 3px 3px 3px lightgray;
+    margin: 30px;
+    border-radius: 20px;
+}
+h2 {
+    font-size: 15px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.tableau {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    color: lightgray;
+    margin-left:-20px;
+ }
+.tailles li {
+    list-style-type: none;
+    color: lightgray;
+    margin: 20px;
+    padding: 10px;
+
+}
+.unites li {
+    list-style-type: none;
+    color: black;
+    margin: 20px;
+    background-color: whitesmoke;
+    padding: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+#px {
+    font-size: 20px;
+}
+
+#rem {
+    font-size: 20px;
+}
+
+.typo-span {
+    font-size: 12px;
+    padding: 10px;
+}
+footer {
+    margin-top:50px
+}
+/* Formulaire */
+.form-card {
+  width:20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  align-items: flex-start;
+  padding: 30px;
+  box-shadow: 3px 3px 3px lightgray;
+  margin: 30px;
+  border-radius: 20px;
+  align-items: stretch;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+}
+.form-card h1{
+  padding-bottom: 10px;
+  width: 100%;
+}
+input[type=text] {
+  margin:10px;
+  padding: 10px;
+  color:lightgrey;
+  border-radius: 5px;
+  border: solid 1px lightgrey;
+}
+input[type=email] {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: solid 1px lightgrey;
+
+}
+#message {
+  margin: 10px;
+  padding: 10px;
+  color:lightgrey;
+  border-radius: 5px;
+  border: solid 1px lightgrey;
+}
+input[type=submit] {
+  margin-top: 10px;
+  margin-left: 10px;
+  width:30%;
+  border-radius: 20px;
+  padding: 10px;
+  background-color: #1E1E3C;
+  color: white;
+}
+.form-span {
+  margin-top: 40px;
+  color: grey;
+}
+/* Position */
+.card-position {
+  width:400px;
+  /* display: flex;
+  flex-direction: row;
+  justify-content: center; */
+  height: 250px;
+  background-color: white;
+  align-items: flex-start;
+  padding: 10px;
+  box-shadow: 3px 3px 3px lightgray;
+  border-radius: 20px;
+  align-items: stretch;
+  
+}
+.relative {
+  padding: 20px;
+  height: 25px;
+  background-color: #1E1E3C;
+  width: 50px;
+  border-radius: 5px;
+  /* display: flex;
+  justify-content: center; */
+  color: white;
+  position: relative;
+  top: 10px;
+  left: 10px;
+}
+.absolute {
+  padding: 20px;
+  background-color: yellow;
+  height:20px;
+  width: 20px;
+  border-radius: 5px;
+  /* display: flex;
+  justify-content: center; */
+  color: black;
+  position: absolute;
+  top: 49%;
+  left: 63%;
+}
+
+.abs1 {
+  padding: 20px;
+  background-color: pink;
+  width: 20px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  color: black;
+  position: absolute;
+  top:  63%;
+  right: 420px;
+}
+.abs2 {
+  padding: 20px;
+  background-color: green;
+  width: 20px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  color: black;
+  position: absolute;
+  top: 71.5%;
+  left: 32.5%;
+}
+
+.abs3 {
+  padding: 5px;
+  background-color: darkgoldenrod;
+  border-radius: 5px;
+  color: black;
+  position: absolute;
+  z-index: 2;
+}
+.abs-rel {
+  padding: 10px;
+  width: 20px;
+  background-color: darkorange;
+  border-radius: 5px;
+  color: white;
+  position: absolute;
+  z-index: 3;
+}
+.abs4 {
+  width: 30px;
+  padding: 20px;
+  background-color: darkgreen;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  color: white;
+  position: absolute;
+  right: 28%;
+  top: 128%;
+}
