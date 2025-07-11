@@ -87,6 +87,7 @@ main {
 /* Typographie */
 .container {
     width:40%;
+    height:100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -139,6 +140,7 @@ h2 {
 .typo-span {
     font-size: 12px;
     padding: 10px;
+    color:lightgrey
 }
 footer {
     margin-top:50px
@@ -211,87 +213,63 @@ input[type=submit] {
   padding: 10px;
   box-shadow: 3px 3px 3px lightgray;
   border-radius: 20px;
-  align-items: stretch;
-  
+  position: relative;
+  margin: 10px;
+
 }
 .relative {
-  padding: 20px;
+  padding: 30px;
   height: 25px;
   background-color: #1E1E3C;
   width: 50px;
   border-radius: 5px;
-  /* display: flex;
-  justify-content: center; */
+  display: flex;
+  justify-content: center;
   color: white;
   position: relative;
-  top: 10px;
-  left: 10px;
 }
 .absolute {
   padding: 20px;
-  background-color: yellow;
   height:20px;
   width: 20px;
   border-radius: 5px;
-  /* display: flex;
-  justify-content: center; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: black;
   position: absolute;
-  top: 49%;
-  left: 63%;
+}
+.ex1{
+  background-color: yellow;
+  top: 190px;
+  left: 340px;
 }
 
 .abs1 {
-  padding: 20px;
-  background-color: pink;
-  width: 20px;
-  border-radius: 5px;
-  display: flex;
-  justify-content: center;
-  color: black;
-  position: absolute;
-  top:  63%;
-  right: 420px;
+  background-color: red;
+  top: 0px;
+  left: 340px;
 }
 .abs2 {
-  padding: 20px;
   background-color: green;
-  width: 20px;
-  border-radius: 5px;
-  display: flex;
-  justify-content: center;
-  color: black;
-  position: absolute;
-  top: 71.5%;
-  left: 32.5%;
+  top:85px;
+  left:0px;
 }
 
 .abs3 {
-  padding: 5px;
   background-color: darkgoldenrod;
-  border-radius: 5px;
-  color: black;
-  position: absolute;
   z-index: 2;
+  top: 15px;
+  left: 35px;
 }
-.abs-rel {
-  padding: 10px;
-  width: 20px;
+.rel {
   background-color: darkorange;
-  border-radius: 5px;
-  color: white;
-  position: absolute;
-  z-index: 3;
+  z-index: 2;
+  top:10px;
+
 }
 .abs4 {
-  width: 30px;
-  padding: 20px;
   background-color: darkgreen;
-  border-radius: 5px;
-  display: flex;
-  justify-content: center;
-  color: white;
-  position: absolute;
-  right: 28%;
-  top: 128%;
+  top: 190px;
+  left: 340px;
 }
